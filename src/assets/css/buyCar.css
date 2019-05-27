@@ -1,0 +1,265 @@
+.aui-car-box {
+	margin-bottom: .5rem;
+}
+
+.aui-car-box-name {
+	background: #f8f8f8;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 15px;
+	position: relative;
+}
+
+.aui-car-box-name input.check {
+	background: url(/img/icon_radio3.png) no-repeat center left;
+	background-size: 18px 18px;
+	position: absolute;
+	top: 50%;
+	left: -15px;
+	margin-top: -18px;
+	width: 18px;
+	height: 35px;
+}
+
+
+
+.aui-car-box-name h3 {
+	float: left;
+	font-size: 12px;
+	background: url(/img/icon-kin.png) no-repeat left center;
+	background-size: 20px 20px;
+	padding-left: 25px;
+	margin-left: 28px;
+	font-weight: inherit;
+}
+
+.aui-car-coupons {
+	float: right;
+}
+
+.aui-car-box-list ul li {
+	margin-bottom: 10px;
+}
+
+.aui-car-box-list-item {
+	height: 92px;
+	padding: 0 15px;
+	position: relative;
+}
+
+.aui-car-box-list-item input.check {
+	background: url(/img/icon_radio3.png) no-repeat center left;
+	background-size: 18px 18px;
+	position: absolute;
+	top: 50%;
+	left: -15px;
+	margin-top: -24px;
+	width: 18px;
+	height: 35px;
+}
+
+.aui-car-box-list-item input.check:checked {
+	background: url(/img/icon_radio4.png) no-repeat center left;
+	background-size: 18px 18px;
+}
+
+.aui-car-box-list-item input.goodsCheck:checked {
+	background: url(/img/icon_radio4.png) no-repeat center left;
+	background-size: 20px 20px;
+}
+
+.aui-car-box-list-item input.check:checked {
+	background: url(/img/icon_radio4.png) no-repeat center left;
+	background-size: 18px 18px;
+}
+
+.aui-car-box-list-img {
+	position: absolute;
+	top: 1px;
+	left: 45px;
+	width: 80px;
+	height: 80px;
+}
+
+.aui-car-box-list-img img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border: none;
+}
+
+.aui-car-box-list-text {
+	margin-left: 130px;
+	padding: 1px 0;
+}
+
+.aui-car-box-list-text h4 {
+	font-size: 12px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+
+.aui-car-box-list-text-brief {
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	color: #81838e;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+}
+
+.aui-car-box-list-text-brief span {
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	color: #81838e;
+	white-space: nowrap;
+	display: inline-block;
+	margin-right: 8px;
+}
+
+.aui-car-box-list-text-price {
+	height: 24px;
+	line-height: 24px;
+	position: relative;
+}
+
+.aui-car-box-list-text-pri {
+	color: #d4244e;
+	font-size: 16px;
+}
+
+.aui-car-box-list-text-arithmetic {
+	position: absolute;
+	right: 0px;
+	top: 0;
+	width: 75px;
+	box-sizing: border-box;
+	white-space: nowrap;
+	height: 100%;
+	border: 1px solid #e0e0e0;
+}
+
+.aui-car-box-list-text-arithmetic a {
+	display: inline-block;
+	width: 23px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	background: #fff;
+	font-size: 16px;
+	color: #666;
+}
+
+.aui-car-box-list-text-arithmetic .minus {
+	border-right: 1px solid #e0e0e0;
+}
+
+.aui-car-box-list-text-arithmetic .num {
+	width: 32px;
+	text-align: center;
+	border: none;
+	display: inline-block;
+	height: 100%;
+	box-sizing: border-box;
+	vertical-align: top;
+	margin: 0 -6px;
+}
+
+.aui-car-box-list-text-arithmetic .plus {
+	border-left: 1px solid #e0e0e0;
+}
+
+.aui-shopPrice {
+	background: #fff;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 15px;
+	text-align: right;
+}
+
+.aui-total-amount {
+	color: #d4244e;
+	font-size: 16px;
+}
+
+.aui-payment-bar {
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	height: 49px;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+	box-shadow: 0 0 10PX 0PX rgba(155,143,143,0.6);
+	-webkit-box-shadow: 0 0 10PX 0PX rgba(155,143,143,0.6);
+	-moz-box-shadow: 0 0 10PX 0PX rgba(155,143,143,0.6);
+}
+
+.aui-payment-bar .all-checkbox {
+	float: left;
+	line-height: 49px;
+	padding-left: 40px;
+}
+
+input.check {
+	background: url(/img/icon_radio3.png) no-repeat center left;
+	background-size: 18px 18px;
+	position: absolute;
+	top: 50%;
+	left: -15px;
+	margin-top: -18px;
+	width: 18px;
+	height: 35px;
+	border: none;
+}
+
+input.check-pay {
+	right: 10px;
+	left: inherit;
+}
+
+input.check:checked {
+	background: url(/img/icon_radio4.png) no-repeat center left;
+	background-size: 18px 18px;
+}
+
+input.check:checked {
+	background: url(/img/icon_radio4.png) no-repeat center left;
+	background-size: 18px 18px;
+}
+
+.aui-payment-bar .shop-total {
+	float: left;
+	height: 49px;
+	line-height: 49px;
+	padding-left: 20px;
+	font-size: 16px;
+	color:#da4644;
+}
+
+.aui-payment-bar .settlement {
+	display: block;
+	float: right;
+	width: 135px;
+	height: 49px;
+	line-height: 49px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	background: #FF5E53;
+}
+
+.aui-payment-bar .shop-total span {
+	display: block;
+	font-size: 14px;
+}
+
+.aui-payment-bar .shop-total span em {
+	font-size: 15px;
+	font-weight: 800;
+}

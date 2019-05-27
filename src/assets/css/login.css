@@ -1,0 +1,62 @@
+
+body,
+html {
+  height: 100%;
+}
+
+.icon{
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 10rem;
+  height: 10rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 3rem;
+}
+
+.s1 {
+  color: red;
+  font-size: 13px;
+  margin-left: 15px;
+  position: absolute;
+}
+#box {
+ /* //   background: url("../assets/book.jpg") no-repeat; */
+  height: 100%;
+  background-size: 100% 100%;
+  text-align: center;
+  color: black;
+} 
+#app {
+  height: 100%;
+}
+#login {
+  width: 80%;
+  height: 40px;
+  background: skyblue;
+  margin: 0 auto;
+  line-height: 40px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+#reg {
+  width: 80%;
+  height: 40px;
+  background: skyblue;
+  margin: 0 auto;
+  line-height: 40px;
+  border-radius: 15px;
+}
+input {
+  border: none;
+  border-bottom: 1px solid grey;
+  background-color: transparent;
+  outline: none;
+  width: 40%;
+  height: 30px;
+  color: black;
+  font-size: 20px ;
+  text-align: center;
+}
